@@ -1,0 +1,47 @@
+@charset "utf-8";
+#main {
+	background-color: #000;
+	height: 714px;
+	width: 1005px;
+	margin-left: -502px;
+	position: absolute;
+	left: 50%;
+	z-index: 2;
+}
+#Lighting {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+
+}
+#Shadow {
+	position: absolute;
+	height: 754px;
+	width: 1085px;
+	margin-top: -317px;
+	z-index: 1;
+	margin-left: -400px;
+}
+
+body {
+	margin: 0px;
+	background-color: #ff5500;
+	background-image: url("images/GradientBG.jpg");
+	background-size: cover;
+}
+
+textarea {
+	margin: 0px;
+	padding: 0px;
+	height: 69px;
+	width: 369px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: 0;
+	border-right-style: 0;
+	border-bottom-style: 0;
+	border-left-style: 0;
+}
